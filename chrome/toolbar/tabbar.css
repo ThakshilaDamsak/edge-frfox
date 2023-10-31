@@ -57,6 +57,7 @@
   border: 0 !important;
   position: relative !important;
   --uc-tab-corner-bg: transparent;
+  transition:0.2s;
 }
 
 /* rounded bottom corners */
@@ -88,6 +89,7 @@
 
 .tab-background:is([selected], [multiselected]) {
   --uc-tab-corner-bg: var(--tab-selected-bgcolor, var(--lwt-selected-tab-background-color, var(--toolbar-bgcolor)));
+  transition:0s;
 }
 
 .tabbrowser-tab:hover .tab-background:not([selected], [multiselected]) {
