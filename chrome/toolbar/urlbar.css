@@ -125,7 +125,7 @@
   outline: 1.5px solid var(--urlbar-hover-highlight-color);
 }
 
-/* move tracking protection button */
+/* move tracking protection button
 #tracking-protection-icon-container,
 #page-action-buttons {
   -moz-box-ordinal-group: 2 !important;
@@ -138,7 +138,7 @@
 
 #urlbar-container:not(:hover) #tracking-protection-icon-container:not([open]) {
   visibility: collapse !important;
-}
+} */
 
 @media (max-width: 450px) {
   #urlbar-container:not(:hover) #pageActionButton {
